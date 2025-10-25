@@ -11,6 +11,13 @@ themeToggle.addEventListener('click', () => {
   } else {
     themeToggle.textContent = '🌙';
   }
+    themeToggle.classList.add('rotate');
+  setTimeout(() => {
+    themeToggle.classList.remove('rotate');
+  }, 500);
+
+  localStorage.setItem('theme', body.classList.contains('dark-theme') ? 'dark' : 'light');
+
 });
 
 
@@ -39,31 +46,10 @@ if (userName) {
   greetingElement.textContent = "Welcome to my website! ";
 }
 
-
-// -------------------------------
-// Theme toggle (dark/light)
-themeToggle.addEventListener('click', () => {
-  document.body.classList.toggle('dark-theme');
-
-  // Add rotation animation
-  themeToggle.classList.add('rotate');
-
-  // Remove rotation class after animation ends
-  setTimeout(() => {
-    themeToggle.classList.remove('rotate');
-  }, 500);
-
-  // Save preference in localStorage
-  if(document.body.classList.contains('dark-theme')){
-    localStorage.setItem('theme', 'dark');
-  } else {
-    localStorage.setItem('theme', 'light');
-  }
-});
-
 window.addEventListener('DOMContentLoaded', () => {
   if(localStorage.getItem('theme') === 'dark'){
     document.body.classList.add('dark-theme');
+    themeToggle.textContent = '☀️'; 
   }
 
   const sections = document.querySelectorAll('section, header');
