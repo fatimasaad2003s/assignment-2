@@ -1,5 +1,3 @@
-// Theme Toggle (Light / Dark)
-
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
 
@@ -19,7 +17,6 @@ themeToggle.addEventListener('click', () => {
   localStorage.setItem('theme', body.classList.contains('dark-theme') ? 'dark' : 'light');
 
 });
-
 
 const greetingElement = document.getElementById("greeting");
 
@@ -57,6 +54,24 @@ window.addEventListener('DOMContentLoaded', () => {
     section.style.opacity = 1;
   });
 });
+
+const form = document.querySelector(".contact-form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const name = form.name.value.trim();
+  const email = form.email.value.trim();
+  const message = form.message.value.trim();
+
+  if (!name || !email || !message) {
+    alert("Please fill in all fields before submitting ");
+    return;
+  }
+
+  alert("Message sent successfully!");
+  form.reset();
+});
+
 
 
 
