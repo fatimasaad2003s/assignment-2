@@ -1,43 +1,43 @@
-# Assignment 1 – Personal Portfolio
+# Assignment 2 – Personal Portfolio
 
 ## Overview
 
-This is a simple personal website built for a web development course. 
-The assignment focuses on how to make good use of AI on a computer and 
-web development using HTML, CSS, and JavaScript. The code must be interactive, 
-allowing for use on a variety of devices. It's an interactive website.
+This is an updated personal website built for a web development course.  
+The assignment focuses on integrating interactive features with AI-assisted guidance, and enhancing web development skills using HTML, CSS, and JavaScript.  
+The website is responsive and includes animations and personalized interactivity.
 
 ---
 
 ## Objectives
 
 - Practice **HTML, CSS, and JavaScript** basics  
-- Use **AI-assisted** development 
+- Implement **AI-assisted** development  
 - Apply **responsive** design principles  
+- Add interactive features like theme toggle, personalized greeting, and animations  
 
 ---
 
 ## Features
 
-- **Home section** with a welcome message  
-- **About me section** introducing the student  
+- **Home section** with a welcome message and personalized greeting  
 - **Projects section** showcasing academic projects  
-- **Contact section** with basic information  
-- **Light/Dark mode** toggle using JavaScript  
+- **Contact section** with a functional contact form  
+- **Light/Dark mode toggle** with rotating icon and LocalStorage support  
+- **Animations / Transitions** including fade-in sections and hover effects for buttons and images  
 
 ---
 
 ## Technologies Used
 
-- **HTML** structure  
-- **CSS** styling and responsiveness  
-- **JavaScript** interactivity  
-- **AI-assisted development tools** for generation and guidance  
+- **HTML** structure for all sections and elements  
+- **CSS** styling, responsive layout, themes, and animations  
+- **JavaScript** for interactivity, theme toggle, greeting, and dynamic animations  
+- **AI-assisted tools** (ChatGPT) for guidance, code suggestions, and troubleshooting  
 
 ---
 
 ## Project Structure
-assignment-1/
+assignment-2/
 ├── README.md
 ├── index.html
 ├── css/
@@ -51,17 +51,18 @@ assignment-1/
 │   └── technical-documentation.md
 └── .gitignore
 
+---
+
 ## How To Run 
 
-- dowmload this repository as Zip file 
-- open the project folder in compiler 
-- clon git repository
-- duble click on 'index.html'
-- run in the broser (Chrome, Edge, Firefox, etc.) 
-- open the page to test it 
+- Download this repository as a ZIP file  
+- Open the project folder in a code editor or IDE  
+- Clone the Git repository (optional)  
+- Double click `index.html` or open it in a browser (Chrome, Edge, Firefox, etc.)  
+- Test all features interactively  
 
 ---
 
-## Author 
+## Author
 
-**Fatima Saad** Bachelor’s student in Computer Science at KFUPM.
+**Fatima Saad** – Bachelor’s student in Computer Science at KFUPM

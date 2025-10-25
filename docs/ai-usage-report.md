@@ -1,39 +1,30 @@
-**AI Usage Report**
-**Tools Used**
+# AI Usage Report – Assignment 2
 
-**ChatGPT**
+## Tools Used
+- **ChatGPT (OpenAI)**: Assisted in writing JavaScript for interactive features and improving CSS for animations and hover effects.
 
-## How AI Was Used
+## Use Cases
+1. **Theme Toggle (Light / Dark)**
+   - Assisted in adding rotation animation to the icon when clicked.
+   - Helped write code that saves the user's theme preference in `localStorage`.
 
-- Generated initial code snippets for HTML, CSS, and JavaScript to help structure the portfolio.
+2. **Personalized Greeting**
+   - Generated code to display a greeting based on the time of day and the user's name, storing the name in `localStorage`.
 
-- Provided guidance step by step to ensure I understood each part and could implement it correctly, avoiding direct copying.
+3. **Animations / Transitions**
+   - Created a fade-in effect for all sections when the page loads.
+   - Added hover effects to buttons and images for better interactivity.
 
-- Helped adapt a conceptual design (wireframe) into actual HTML/CSS structure.
+## Benefits
+- Code became more organized and easier to maintain.
+- User preferences are automatically saved.
+- Website is more interactive and visually appealing.
 
-- Assisted in troubleshooting issues with images and file organization.
+## Challenges
+- Initially faced issues with duplicate Theme Toggle functionality due to multiple event listeners.
+- Some AI suggestions required adjustments to fit the current design of the website.
 
-- Reviewed my README.md to confirm it included all required sections and instructions.
-
-
-## Modifications and Responsible Use
-
-- Edited and organized all generated code to fit my own design and project requirements.
-
-- Implemented step-by-step changes rather than copying large blocks, to ensure understanding.
-
-- Adjusted colors, layout, and content to reflect personal preferences and assignment specifications.
-
-- Used AI suggestions as guidance, not as final solutions.
-
-- Verified full understanding of all technical explanations included.  
-
-
-## Benefits and Learning Outcomes
-
-- Improved understanding of HTML structure, CSS styling, and JavaScript interactivity.
-
-- Learned how to implement responsive design and proper file organization.
-
-- Gained experience in using AI responsibly as a development assistant.
-
+## Learning Outcomes
+- Learned how to integrate `localStorage` with Theme Toggle functionality.
+- Gained experience implementing smooth animations and transitions in CSS and JavaScript.
+- Learned how to use AI as a supportive tool for developing interactive features without relying on it completely.
